@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADÊ AS SEMENTES?</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link id="favicon" rel="icon" href="img/melancia.png" type="image/x-icon">
+    <script src="js/index.js"></script>
+    <script src ="js/header.js"></script>
+</head>
+<body>
+    <div id="pos-melancia">
+        <header><a href="index.html">Home</a><a href="forum.html">Forum</a><a href="galeria.html">Galeria</a><a href="pesqperfil.html" id="headerPesq">Pesquisar</a><a href="perfil.html" id="headerPerfil"></a></header>
+        <div id="conteudo-centralizado">
+            <h1>CADÊ AS SEMENTES?</h1>
+            <h3>Centro de discução sobre as melancias sem sementes.</h3>
+            <button onclick="mostrarTexto()" id="btnMostrar">Saiba mais</button>
+            <div id="texto-container">
+                <p>Algumas melancias não tem sementes.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="melancia-container">
+        <img src="img/melancia.png" alt="Melancia" onmousedown="diminuirMelancia()" onmouseup="abrirMelancia()" id="melancia">
+    </div>
+    
+</body>
+</html>

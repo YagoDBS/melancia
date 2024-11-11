@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/galeria.css">
+    <title>Galeria</title>
+    <link id="favicon" rel="icon" href="img/melancia.png" type="image/x-icon">
+    <script src="js/galeria.js"></script>
+    <script src ="js/header.js"></script>
+</head>
+<body>
+    <header><a href="index.html">Home</a><a href="forum.html">Forum</a><a href="galeria.html">Galeria</a><a href="pesqperfil.html" id="headerPesq">Pesquisar</a><a href="perfil.html" id="headerPerfil"></a></header>
+    <div id="conteudo-centralizado">
+        <h1>Aviso de conteúdo gráfico!</h1>
+        <p>As imagens a seguir podem ser muito chocantes para o usuário comum, proceda com cuidado.</p>
+        <button onclick="mostrarImagens()" id="btnMostrar">Mostrar imagens</button>
+        <div id="imagens-container">
+            <img src="img/ms1.jpg" alt="Imagem assustadora" height="500px">
+            <img src="img/ms2.jpg" alt="Imagem assustadora" height="500px">
+            <p>Tenebroso...</p>
+            <img src="img/ms3.jpg" alt="Imagem assustadora" height="500px">
+            <img src="img/ms4.jpg" alt="Imagem assustadora" height="500px">
+            <img src="img/ms5.jpg" alt="Imagem assustadora" height="500px">
+            <img src="img/semente.png" alt="semente" height="10px" id="semente" onclick="desbloquearSemente()">
+        </div>
+    </div>
+    
+</body>
+</html>

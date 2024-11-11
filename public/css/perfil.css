@@ -1,0 +1,74 @@
+body{
+    background-color: #F05154;
+}
+
+button{
+    background-color: #DCCFA3;
+    border: 0;
+    border-radius: 3px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+button:hover{
+    background-color: #c4b790;;
+}
+
+header{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px;
+    right: 0px;
+    display: flex;
+    font-size: large;
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+    border-right: 1px solid grey;
+    padding: 3px 10px;
+}
+
+#headerPerfil{
+    border-right: none;
+    position: inherit;
+    right: 0px;
+    bottom: 4px;
+}
+
+#headerPesq{
+    border-right: none;
+}
+
+#conteudo-centralizado{
+    margin: 0 auto;
+    margin-top:45px;
+    background-color: #FF3B3E;
+    width: 84%;
+    padding: 0% 3% 45% 3%;
+    min-height: 100vh;
+}
+
+textarea{
+    border: none;
+    border-radius: 2px;
+    width: 50%;
+    height: 100px;
+}
+
+#perfilField{
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#achievementField{
+    position: inherit;
+    right:0px;
+}
